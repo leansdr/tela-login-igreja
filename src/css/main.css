@@ -119,7 +119,7 @@
   color: #fff;
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   body {
     overflow: hidden;
   }
