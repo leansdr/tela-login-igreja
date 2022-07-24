@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
   max-width: 350px;
   height: 100vh;
@@ -120,7 +119,7 @@
   color: #fff;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 320px) {
   body {
     overflow: hidden;
   }
