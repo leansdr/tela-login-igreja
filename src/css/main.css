@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica";
+}
+
+#login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 350px;
+  height: 100vh;
+  margin: 20px auto;
+}
+#login-container img {
+  width: 180px;
+  margin: 18px 0;
+}
+#login-container h1 {
+  font-size: 30px;
+  margin-bottom: 18px;
+  font-weight: normal;
+}
+#login-container p {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+#login-container #register {
+  color: #61dafb;
+  text-decoration: none;
+}
+#login-container #register:hover {
+  text-decoration: underline;
+}
+#login-container .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  position: relative;
+}
+#login-container .btn-icon {
+  height: 28px;
+  width: 25px;
+  position: absolute;
+  left: 20px;
+  background-color: #fff;
+  padding: 2px;
+}
+#login-container #btn-login-face {
+  background-color: #3d5b9c;
+}
+#login-container #btn-login-face:hover {
+  background-color: #536ea8;
+}
+#login-container #btn-login-google {
+  background-color: #4285f4;
+}
+#login-container #btn-login-google:hover {
+  background-color: #518ef0;
+}
+#login-container #btn-login-email {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: #000;
+}
+#login-container #btn-login-email:hover {
+  border: 1px solid #000;
+}
+#login-container #lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+#login-container .line {
+  border: 1px solid #ccc;
+  width: 50%;
+  height: 1px;
+}
+#login-container span {
+  margin: 0 15px;
+  font-size: 18px;
+}
+#login-container i {
+  height: 30px;
+}
+
+#btn-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 60px;
+  margin-top: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #fff;
+}
+#btn-close:hover {
+  background-color: #ccc;
+}
+#btn-close a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #000;
+}
+#btn-close a:hover {
+  color: #fff;
+}
+
+@media (max-width: 320px) {
+  #login-container {
+    margin: 0 20px;
+  }
+  #btn-close {
+    right: 20px;
+  }
+  .btn-icon {
+    left: 10px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
