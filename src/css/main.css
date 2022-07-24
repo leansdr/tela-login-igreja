@@ -13,7 +13,6 @@
   max-width: 350px;
   height: 100vh;
   margin: 20px auto;
-  overflow-y: hidden;
 }
 #login-container img {
   width: 180px;
@@ -123,6 +122,7 @@
 @media (max-width: 320px) {
   #login-container {
     margin: 0 20px;
+    overflow-y: hidden;
   }
   #btn-close {
     right: 20px;
